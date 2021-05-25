@@ -18,5 +18,5 @@ const thoughtController = {
     },
 
     //get user by id
-    getUserById
+    getThoughtById
 }
