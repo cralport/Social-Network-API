@@ -8,8 +8,14 @@ For this application the user will need to install:
 
 
 MongoDB
+
+
 Mongoose ```npm install mongoose```
+
+
 Express.js ```npm install express```
+
+
 Node.js
 
 ## Usage
