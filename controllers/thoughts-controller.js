@@ -1,22 +1,21 @@
-const { Thought, User } =require('../models');
-
+const { Thought, User } = require('../models/index');
 const thoughtController = {
+
     //get all
-    getAllThoughts (req, res) {
+    getAllThoughts(req, res) {
         Thought.find({})
             .populate({
                 path: 'user',
                 select: '-__v'
             })
-            .select('-_v')
-            .sort({ id: -1 })
-            .then(dbUserData => res.json(dbUserData))
-            .catch( err => {
-                console.log(err);
-                res.status(400).json(err);
-            });
-    },
+            .select('-__V')
+            .sort({ _id: -1})
+    }
 
-    //get user by id
-    getThoughtById
 }
+    
+
+
+
+
+module.exports = thoughtController;
