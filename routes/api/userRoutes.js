@@ -10,18 +10,18 @@ const {
     removeFriend
 } = require('../../controllers/user-controller');
 
-router  
+router
     .route('/')
     .get(getAllUsers)
     .post(createUser)
 
-router 
+router
     .route('/:id')
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser)
 
-router  
+router
     .route('/:userId/friends/:friendsId')
     .post(addFriend)
     .delete(removeFriend)
