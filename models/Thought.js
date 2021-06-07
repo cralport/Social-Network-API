@@ -38,7 +38,7 @@ const ThoughtSchema = new Schema(
             default: Date.now,
             get: createdAtVal => dateFormat(createdAtVal)
         },
-        userName: {
+        username: {
             type: Schema.Types.ObjectId,
             required: true,
             ref: 'User'

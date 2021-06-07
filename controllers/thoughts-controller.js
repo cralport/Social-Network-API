@@ -46,7 +46,6 @@ const thoughtController = {
             .then(dbThoughtData => {
                 if (!dbThoughtData) {
                     res.status(404).json({ message: 'No user found with this username' });
-                    ReadableStreamDefaultController;
                 }
                 res.json(dbThoughtData)
             })
