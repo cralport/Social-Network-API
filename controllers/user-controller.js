@@ -43,7 +43,7 @@ const userController = {
     addFriend({ params }, res) {
         User.findByIdAndUpdate(
             { _id: params.userId },
-            { $push: { friends: params.friendId } },
+            { $push: { friends: params.friendsId } },
             { new: true, runValidators: true }
         )
             .then(dbUserData => {
@@ -71,6 +71,8 @@ const userController = {
 
     //delete a user
     deleteUser({ params }, res) {
+        // console.log("hoogabalooga")
+        // res.end();
         User.findOneAndDelete({ _id: params.id })
             .then(dbUserData => {
                 if (!dbUserData) {

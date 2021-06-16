@@ -21,5 +21,12 @@ Node.js
 ## Usage
 Here are videos showing the application in use:
 
+
+Video showing all user routes  <iframe src="https://drive.google.com/file/d/1K-MXh-cPOGjNBD0iRvzPQHdsOHATBQHt/preview" width="640" height="480"></iframe>
+
+Video showing all thought routes <iframe src="https://drive.google.com/file/d/19lEfGJK08H6dnPnaNXhxtlJOWbh2_j_X/preview" width="640" height="480"></iframe>
+
+Video showing creating and deleting a reaction, as well as creating a friend and removing a friend <iframe src="https://drive.google.com/file/d/1y8111Xdv5o5Uny25R2XrlgPv-mGZanf0/preview" width="640" height="480"></iframe>
+
 ## Questions
 For any questions about this application please reach out to me at Cralport@gmail.com or at https://github.com/cralport (GitHub)
